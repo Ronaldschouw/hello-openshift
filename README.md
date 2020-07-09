@@ -1,4 +1,4 @@
-# Hello Openshift Container PHP-FPM: Nginx: Alpine Linux
+# Hello Openshift Container runs on port 8080
 Example PHP-FPM 7.3 & Nginx 1.18 setup for Docker, build on [Alpine Linux](http://www.alpinelinux.org/).
 The image is only +/- 35MB large.
 
