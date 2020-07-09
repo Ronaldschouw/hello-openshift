@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine
 LABEL Maintainer="Ronald Schouw <mail@ronalt.nl>" \
       Description="Lightweight container with Nginx 1.18 & PHP-FPM 7.3 based on Alpine Linux."
 
