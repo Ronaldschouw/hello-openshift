@@ -1,9 +1,10 @@
 <html>
 Hallo Rotterdam<br>
 
-Jou IP adres:
+IP adres remote:
 <?php echo $_SERVER['REMOTE_ADDR']; ?>
-IP adres host:
+<br>
+IP adres on running host:
 <?php echo $_SERVER['SERVER_ADDR']; ?>
 
 
