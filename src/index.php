@@ -1,5 +1,6 @@
 <html>
 Hallo Rotterdam<br>
+<br>
 
 IP adres remote:
 <?php echo $_SERVER['REMOTE_ADDR']; ?>
