@@ -38,25 +38,25 @@ metadata:
   labels:
     app: ronalt
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: ronalt
   ports:
     - port: 80
       targetPort: 8080
----
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: ronalt
-  namespace: ronalt
-  annotations:
-    kubernetes.io/ingress.class: nginx  
-spec:  
-  rules:
-  - http:
-      paths:
-      - path: /
-        backend:
-          serviceName: ronalt
-          servicePort: 80
+#---
+#apiVersion: extensions/v1beta1
+#kind: Ingress
+#metadata:
+#  name: ronalt
+#  namespace: ronalt
+#  annotations:
+#    kubernetes.io/ingress.class: nginx  
+#spec:  
+#  rules:
+#  - http:
+#      paths:
+#      - path: /
+#        backend:
+#          serviceName: ronalt
+#          servicePort: 80
